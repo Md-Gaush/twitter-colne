@@ -12,7 +12,7 @@ const path = require("path")
 
 app.use(
     cors({
-      origin: "http://localhost:5173", 
+      origin: "https://twitter-colne.onrender.com", 
       credentials: true,               
     })
   );
