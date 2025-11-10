@@ -1,5 +1,5 @@
 const Tweet = require("../models/tweetSchema");
-const User = require("../models/userschema");
+const User = require("../models/userSchema");
 
 // create tweets
 const createTweet = async (req, res) => {
