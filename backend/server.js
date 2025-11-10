@@ -26,7 +26,8 @@ app.use("/api/tweets",tweetRoutes)
 
 
 
-const port = process.env.port 
+const port = process.env.PORT 
+
 
 app.use(express.static(path.join(_dirname,"/frontend/dist")))
 app.get(/.*/,(req,res)=>{
