@@ -1,5 +1,5 @@
 const isAuthenticated = require("../config/auth")
-const { register, login, logout, bookMarks, getMyProfile, getOtherUsers, follow, unfollw } = require("../controllers/usercontroller")
+const { register, login, logout, bookMarks, getMyProfile, getOtherUsers, follow, unfollw } = require("../controllers/userController")
 
 const router = require("express").Router()
 
